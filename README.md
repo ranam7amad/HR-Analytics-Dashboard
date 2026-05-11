@@ -3,8 +3,8 @@ Project Overview
 This project is an end-to-end HR Data Analytics Dashboard built using Python. It performs data cleaning, exploratory data analysis (EDA), and interactive visualizations to extract meaningful insights about employees, departments, and organizational structure.
 The goal is to transform raw HR data into actionable insights that support better decision-making in workforce management.
 ________________________________________
- Features
-Data Cleaning
+ ##Features
+##Data Cleaning
 •	Standardized column names (lowercase & trimmed)
 •	Handled missing values
 •	Removed duplicate employee records
@@ -16,14 +16,14 @@ Exploratory Data Analysis (EDA)
 •	Managerial hierarchy analysis
 •	Missing values analysis
 •	Employee hiring trends over time
- Visualizations
+ ##Visualizations
 Built using Matplotlib & Plotly:
 •	Bar charts (Departments, Managers)
 •	Pie charts (Level distribution)
 •	Stacked bar charts (Department vs Level)
 •	Line charts (Hiring trends)
 •	Missing values analysis charts
- Key KPIs
+ ##Key KPIs
 •	Total number of employees
 •	Number of departments
 •	Number of managers
@@ -40,21 +40,21 @@ The dataset contains HR-related employee information such as:
 •	Start Date
 •	Email
 ________________________________________
- Technologies Used
+ ##Technologies Used
 •	Python 
 •	Pandas 
 •	Matplotlib 
 •	Plotly 
 •	Google Colab 
 ________________________________________
-Key Insights
+##Key Insights
 •	Departments vary significantly in employee distribution
 •	Certain departments have higher managerial concentration
 •	Missing values exist mainly in hierarchy-related fields
 •	Hiring trends show variation across years
 ________________________________________
 
-How to Run the Project
+##How to Run the Project
 1.	Open Google Colab or Jupyter Notebook
 2.	Upload the dataset:
 from google.colab import files
@@ -63,11 +63,11 @@ uploaded = files.upload()
 pip install pandas matplotlib plotly
 4.	Run the notebook step by step
 ________________________________________
-Output Export
+##Output Export
 Final cleaned dataset can be exported using:
 df.to_csv('final_hr_data.csv', index=False)
 ________________________________________
-Author
+##Author
 Rana Mohamed
 ________________________________________
 
